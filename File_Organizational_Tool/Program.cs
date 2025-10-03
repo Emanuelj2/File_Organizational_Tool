@@ -126,7 +126,7 @@ namespace File_Organizational_Tool
                     string category = GetFileCategory(extension);
 
                     // Create category folder if it doesn't exist
-                    string categoryFolder = Path.Combine(folderPath, fileName);
+                    string categoryFolder = Path.Combine(folderPath, category);
                     Directory.CreateDirectory(categoryFolder);
 
                     //make the destination path
